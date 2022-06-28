@@ -1,0 +1,110 @@
+:root{
+    /* https://colorhunt.co/palette/0000003e432e616f39a7d129 */
+    --nbg1: #3E432E;
+    --nc1: #A7D129;
+    --nc2: #616F39;
+    --nc3: #030303;
+    
+     /* https://colorhunt.co/palette/7c9473cfdac8e8eae6cdd0cb */
+     --lbg1: #E8EAE6;
+     --lc1: #7C9473;
+     --lc2: #CDD0CB;
+     --lc3: #CFDAC8;
+}
+
+.dark-mode{
+    --c1: var(--nc1);
+    --c2: var(--nc2);
+    --c3: var(--nc3);
+    --bg: var(--nbg1);
+}
+
+.light-mode{
+    --c1: var(--lc1);
+    --c2: var(--lc2);
+    --c3: var(--lc3);
+    --bg: var(--lbg1);
+}
+
+.block{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+
+.r6{
+    display: inline;
+    float: left;
+    margin-left: 0px;
+    margin-right: 150px;
+}
+
+th{
+    text-align: left;
+}   
+
+th, td {
+    background-color: var(--c1);
+  }
+
+body{
+    background-color: var(--bg);
+}
+
+h1{
+    color: var(--c1);
+}
+
+ol, ul{
+    color: var(--c1);
+    text-align: center;
+}
+
+p, h3, a{
+    color: var(--c1);
+    text-align: center;
+
+}
+
+form{
+    text-align: center;
+    color: var(--c1);
+}
+
+input{
+    background-color: var(--c1);
+    border: black;
+    border-radius: 3px;
+}
+
+button{
+    background-color: var(--c1);
+    border: black;
+    border-radius: 3px;
+}
+
+nav{
+    text-align: center;
+}
+
+.Flag, .OperatorIcon{
+    display: inline;
+    float: unset;
+    align-items: center;
+}
+
+.Table{
+    text-align: center;
+    margin: 25px 25px 25px 500px;
+    border: solid;
+    border-color: black;
+}
+
+table, th, td {
+    border: 1px solid rgb(56, 56, 56);
+    border-collapse: collapse;
+  }
+
+
+
+
